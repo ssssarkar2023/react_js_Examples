@@ -1,25 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+// export function App() {
+//   return "Hello React";
+// }
+// import { Heading, SubHeading } from "./Heading";
+// import AdditionHeading from "./Addition";
+// import Subtraction from "./Subtraction";
+// import Multiplication from "./Multiplication";
 
+import FirstHeading from "./Headings";
+import SecondHeading from "./Headings2";
+import FavFoodList from "./List1";
+import SystemAcc from "./List2";
 function App() {
+  // let x = 25;
+  // let y = 15;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Heading />
+      <SubHeading />
+      <AdditionHeading />
+      <Subtraction />
+      <Multiplication/> */}
+      <FirstHeading />
+      <FavFoodList />
+      <SecondHeading />
+      <SystemAcc />
     </div>
   );
 }
+
+
+
+// const AdditionHeading = () => {
+//   return (
+//     <div>
+//       <h2>Addition</h2>
+//     </div>
+//   )
+// }
+
+// const SubtrationHeading = () => {
+//   return (
+//     <div>
+//       <h2>Subtration</h2>
+//     </div>
+//   )
+// }
+
+// const MultiplicationHeading = () => {
+//   return (
+//     <div>
+//       <h2>Multiplication</h2>
+//     </div>
+//   )
+// }
 
 export default App;
